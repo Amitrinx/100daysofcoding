@@ -7,34 +7,33 @@
                 <input type="text" readonly size="20" id="D">
                 <div class="Keys">
                     <p>
-                        <input type="button" value="AC" onclick='GetValue("AC")'>
-                        <input type="button" value="C" onclick='GetValue("C")'>
-                        <input type="button" value="%" onclick='GetValue("%")'>
-                        <input type="button" value="=" onclick='GetValue("=")'>
+                        <input type="button" value="AC" class="button gray"  onclick='AllClear()'>
+                        <input type="button" value="C" class="button gray"  onclick='Clear()'>
+                        <input type="button" value="%" class="button pink"  onclick='Operator("%")'>
+                        <input type="button" value="=" class="button pink"  onclick='GetResult("=")'>
                     </p>
                     <p>
-                        <input type="button" value="9" onclick='GetValue("9")'>
-                        <input type="button" value="8" onclick='GetValue("8")'>
-                        <input type="button" value="7" onclick='GetValue("7")'>
-                        <input type="button" value="/" onclick='GetValue("/")'>
+                        <input type="button" value="9" class="button black" onclick='Result("9")'>
+                        <input type="button" value="8" class="button black" onclick='Result("8")'>
+                        <input type="button" value="7" class="button black" onclick='Result("7")'>
+                        <input type="button" value="/" class="button pink"  onclick='Operator("/")'>
                     </p>
                     <p>
-                        <input type="button" value="6" onclick='GetValue("6")'>
-                        <input type="button" value="5" onclick='GetValue("5")'>
-                        <input type="button" value="4" onclick='GetValue("4")'>
-                        <input type="button" value="*" onclick='GetValue("*")'>
+                        <input type="button" value="6" class="button black" onclick='Result("6")'>
+                        <input type="button" value="5" class="button black" onclick='Result("5")'>
+                        <input type="button" value="4" class="button black" onclick='Result("4")'>
+                        <input type="button" value="*" class="button pink"  onclick='Operator("*")'>
                     </p>
                     <p>
-                        <input type="button" value="3" onclick='GetValue("3")'>
-                        <input type="button" value="2" onclick='GetValue("2")'>
-                        <input type="button" value="1" onclick='GetValue("1")'>
-                        <input type="button" value="-" onclick='GetValue("-")'>
+                        <input type="button" value="3" class="button black" onclick='Result("3")'>
+                        <input type="button" value="2" class="button black" onclick='Result("2")'>
+                        <input type="button" value="1" class="button black" onclick='Result("1")'>
+                        <input type="button" value="-" class="button pink"  onclick='Operator("-")'>
                     </p>
                     <p>
-                        <input type="button" value="C" onclick='GetValue("9")'>
-                        <input type="button" value="." onclick='GetValue("9")'>
-                        <input type="button" value="0" onclick='GetValue("9")'>
-                        <input type="button" value="=" onclick='GetValue("9")'>
+                        <input type="button" value="." class="button black" onclick='Result(".")'>
+                        <input type="button" value="0" class="button black" onclick='Result("0")'>
+                        <input type="button" value="+" class="button pink"  onclick='Operator("+")'>
                     </p>
     
 
